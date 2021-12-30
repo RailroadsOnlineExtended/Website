@@ -1,0 +1,25 @@
+<svg width="105" height="60" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+ <title>Refinery</title>
+ <g>
+  <title>Layer 1</title>
+  <g id="Platforms">
+   <rect transform="rotate(90 85.803 -64.6152)" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="22.56" width="3.41" y="-51.47522" x="151.57304" class="cls-1" data-name="Crude Oil" id="Crude_Oil"/>
+   <rect transform="rotate(90 62.303 -27.6152)" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="22.56" width="3.41" y="-7.72522" x="97.82304" class="cls-1" data-name="Steel Pipes" id="Steel_Pipes"/>
+   <rect transform="rotate(90 44.243 3.11478)" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="11.28" width="3.41" y="34.97478" x="55.37305" class="cls-1" id="Lumber"/>
+   <polygon stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" points="70.3530435860157,54.93478012084961 69.41304114460945,54.93478012084961 69.41304114460945,58.404781341552734 92.2230387032032,58.404781341552734 91.9730387032032,43.81477737426758 81.91304114460945,43.81477737426758 81.9730387032032,54.774776458740234 80.53304389119148,54.7647819519043 80.44303992390633,43.81477737426758 70.3530435860157,43.81477737426758 70.3530435860157,54.93478012084961 " class="cls-1" data-name="Oil Barrels" id="Oil_Barrels"/>
+  </g>
+  <g id="Buildings">
+   <rect id="svg_1" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="9.5" width="4.63" y="45.20478" x="93.08304" class="cls-2"/>
+   <line id="svg_2" fill="none" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" y2="54.70478" x2="95.39304" y1="45.20478" x1="95.39304" class="cls-3"/>
+   <rect id="svg_3" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="8.83" width="12.92" y="20.47478" x="90.64304" class="cls-2"/>
+   <line id="svg_4" fill="none" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" y2="24.89478" x2="103.60304" y1="24.89478" x1="90.64304" class="cls-3"/>
+   <circle id="svg_5" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" r="5.95" cy="10.84478" cx="51.05304" class="cls-2"/>
+   <circle id="svg_6" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" r="5.95" cy="10.84478" cx="66.71304" class="cls-2"/>
+   <circle id="svg_7" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" r="1.36" cy="40.41478" cx="65.45304" class="cls-2"/>
+   <circle id="svg_8" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" r="1.36" cy="40.41478" cx="41.02304" class="cls-2"/>
+   <polygon id="svg_9" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" points="37.47304633259773,25.87478256225586 34.50304511189461,25.87478256225586 34.50304511189461,34.404781341552734 42.38304618000984,34.624778747558594 42.38304618000984,27.514789581298828 44.16304495930672,27.514789581298828 44.16304495930672,21.564788818359375 37.51304343342781,21.564788818359375 37.47304633259773,25.87478256225586 " class="cls-2"/>
+   <polygon id="svg_10" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" points="62.93304160237312,25.87478256225586 59.96304801106453,25.87478256225586 59.96304801106453,34.404781341552734 67.84304144978523,34.624778747558594 67.84304144978523,27.514789581298828 69.62304022908211,27.514789581298828 69.62304022908211,21.564788818359375 62.97304251790047,21.564788818359375 62.93304160237312,25.87478256225586 " class="cls-2"/>
+   <polygon id="svg_11" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" points="82.56304267048836,13.824783325195312 82.56304267048836,16.794784545898438 91.09304144978523,16.794784545898438 91.31304267048836,8.914783477783203 84.2030420601368,8.914783477783203 84.2030420601368,7.144783020019531 78.24304297566414,7.144783020019531 78.24304297566414,13.794784545898438 82.56304267048836,13.824783325195312 " class="cls-2"/>
+  </g>
+ </g>
+</svg>

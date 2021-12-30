@@ -1,0 +1,18 @@
+<svg width="98" height="94" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+ <g>
+  <title>Layer 1</title>
+  <g id="Platforms">
+   <g id="Plat">
+    <rect transform="rotate(90 114.716 61.5627)" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="37.31" width="5.47" y="137.48271" x="140.76593" class="cls-1" id="Beams"/>
+   </g>
+   <rect transform="rotate(90 179.836 -6.31729)" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="18.94" width="5.47" y="77.41271" x="272.38593" class="cls-1" id="Rails"/>
+  </g>
+  <g id="Buildings">
+   <rect id="svg_1" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="14.75" width="14.75" y="78.32271" x="48.04593" class="cls-2"/>
+   <rect id="svg_2" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="11.2" width="10.44" y="78.45271" x="49.00593" class="cls-2"/>
+   <line id="svg_3" fill="none" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" y2="93.07271" x2="62.99593" y1="89.65271" x1="59.45593" class="cls-3"/>
+   <rect id="svg_4" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="19.53" width="13.07" y="0.81271" x="51.11593" class="cls-2"/>
+   <line id="svg_5" fill="#303030" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" y2="20.01271" x2="57.65593" y1="0.81271" x1="57.65593" class="cls-4"/>
+  </g>
+ </g>
+</svg>

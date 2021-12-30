@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: gray;
+  overflow: hidden !important;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+header .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 500;
+}
+header .logo img {
+  height: 80px;
+  margin: 5px;
+}
+header .settings {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  font-size: 40px;
+  margin: 5px;
+  width: 40px;
+  height: 45px;
+  color: white;
+  transition: color 100ms ease-in-out;
+  z-index: 500;
+}
+header .settings:hover {
+  color: #c7c7c7;
+  cursor: pointer;
+}
+header .settings .settingsIcon {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+header .sideMenu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  z-index: 450;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-left: 1px solid black;
+  color: white;
+  transform: translateX(100%);
+}
+header .sideMenu .header {
+  margin-inline: 10px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+header .sideMenu .header h1 {
+  color: white;
+  margin: 0;
+}
+header .sideMenu .body {
+  margin-inline: 10px;
+}
+header .sideMenu .body h1, header .sideMenu .body p {
+  color: white;
+}
+header .sideMenu .body p {
+  margin-bottom: 5px;
+}
+header .MenuClosed {
+  animation: hideMenuHide 500ms ease-in-out 0s forwards;
+}
+header .MenuOpen {
+  animation: hideMenuShow 500ms ease-in-out 0s forwards;
+}
+header .settingsGroup {
+  margin-bottom: 5px;
+}
+
+@keyframes hideMenuShow {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes hideMenuHide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+#map {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #565656;
+  position: relative;
+}
+#map .leaflet-popup-content-wrapper {
+  width: 100%;
+}
+#map .leaflet-control-zoom {
+  position: absolute;
+  top: 100px;
+  left: 5px;
+}
+
+.row {
+  display: flex;
+}
+.row .column {
+  width: 50%;
+}
+.row .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaflet-map-pane svg {
+  z-index: 20 !important;
+}
+
+.toolbar-topleft {
+  z-index: 350;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 60px;
+  background-color: white;
+}
+.toolbar-topleft .btn {
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  width: 60px;
+  padding: 8px;
+}
+.toolbar-topleft .btn:not(:last-child) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.toolbar-topleft .btn:last-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.toolbar-topleft .btn:hover {
+  background-color: #e0e0e0;
+}
+
+/*# sourceMappingURL=styles.css.map */

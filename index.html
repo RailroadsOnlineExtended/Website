@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RailRoads Online Extended</title>
+    <meta name="description" content="RailRoads Online Extended"/>
+    <link rel="icon" href="./assets/images/appIcon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="./assets/js/leaflet-corridor.js"></script>
+    <script src="./assets/js/Leaflet.Control.Custom.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/images/appIcon.ico" alt="logo"/>
+        </div>
+        <div class="settings" id="settingsMenu">
+            <i class="fas fa-cog settingsIcon"></i>
+        </div>
+        <div class="sideMenu" id="sideMenu">
+            <div class="header">
+                <h1>Settings</h1>
+            </div>
+            <div class="body">
+                <p>Map Options:</p>
+                <div class="settingsGroup">
+                    <label for="mapSelect">Style: </label>
+                    <select id="mapSelect" class="uk-select">
+                        <option value="1">Normal Info</option>
+                        <option value="2">Original 2</option>
+                        <option value="3">Original</option>
+                        <option value="4">Normal</option>
+                        <option value="5">Dark</option>
+                    </select>
+                </div>
+                <div class="settingsGroup">
+                    <label for="mapShowGroundwork">Show Groundwork: </label>
+                    <input type="checkbox" id="mapShowGroundwork" class="uk-checkbox"/>
+                </div>
+                <div class="settingsGroup">
+                    <label for="mapShowRails">Show Rails: </label>
+                    <input type="checkbox" id="mapShowRails" class="uk-checkbox"/>
+                </div>
+                <div class="settingsGroup">
+                    <label for="mapShowTrains">Show Trains: </label>
+                    <input type="checkbox" id="mapShowTrains" class="uk-checkbox"/>
+                </div>
+                <div class="settingsGroup">
+                    <label for="mapShowCarts">Show Carts: </label>
+                    <input type="checkbox" id="mapShowCarts" class="uk-checkbox"/>
+                </div>
+                <div class="settingsGroup">
+                    <label for="mapShowStructures">Show Structures: </label>
+                    <input type="checkbox" id="mapShowStructures" class="uk-checkbox"/>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="map"></div>
+
+    <script src="./assets/js/data2.js"></script>
+
+    <script src="./assets/js/state.js"></script>
+    <script src="./assets/js/componentes/StorageInfo.js"></script>
+    <script src="./assets/js/componentes/Spline.js"></script>
+    <script src="./assets/js/componentes/Switch.js"></script>
+    <script src="./assets/js/componentes/Industries.js"></script>
+    <script src="./assets/js/componentes/Location.js"></script>
+    <script src="./assets/js/componentes/PlayerPopup.js"></script>
+
+    <script src="./assets/js/mapInit.js"></script>
+    <script src="./assets/js/map.js"></script>
+
+    <script src="./assets/js/settings.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

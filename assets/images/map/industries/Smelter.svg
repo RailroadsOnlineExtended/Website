@@ -1,0 +1,20 @@
+<svg width="110" height="82" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+
+ <title>Smelter</title>
+ <g>
+  <title>Layer 1</title>
+  <g id="Platforms">
+   <rect stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="59.1" width="4.39" y="10.49" x="0.76" class="cls-1" id="RailsRawIron"/>
+   <rect stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="29.66" width="4.39" y="1.36" x="104.13" class="cls-1" id="Iron"/>
+   <rect stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" fill="#a65926" height="29.6" width="4.39" y="50.74" x="94.2" class="cls-1" id="Cordwood"/>
+  </g>
+  <g id="Buildings">
+   <path id="svg_1" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" d="m49.4,19.71a5.3,5.3 0 0 1 10.56,0.07" class="cls-2"/>
+   <polygon id="svg_2" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" points="42.09000015258789,20.900006100535393 54.650001525878906,19.150006100535393 67.60999298095703,20.900006100535393 67.64999389648438,78.19998626410961 54.58000183105469,80.68998412787914 42.09000015258789,78.20998077094555 42.09000015258789,20.900006100535393 " class="cls-2"/>
+   <line id="svg_3" fill="none" stroke-width="0.25px" stroke-miterlimit="10" stroke="#231f20" y2="80.84" x2="54.55" y1="19.15" x1="54.55" class="cls-3"/>
+   <rect id="svg_4" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="17.29" width="6.47" y="29.07" x="35.62" class="cls-2"/>
+   <rect id="svg_5" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="17.29" width="6.47" y="51.23" x="35.62" class="cls-2"/>
+   <rect id="svg_6" stroke-width="0.5px" fill="#303030" stroke-miterlimit="10" stroke="#231f20" height="17.29" width="6.47" y="28.07" x="67.65" class="cls-2"/>
+  </g>
+ </g>
+</svg>
